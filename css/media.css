@@ -1,0 +1,394 @@
+@media (max-width:567px) {
+    /* header section */
+    .section-heading{
+        font-size: x-large;
+    }
+
+
+
+    header nav ul{
+        width: 100%;
+        gap:1rem
+    }
+    header nav ul li{
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    header .heading{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .shape{
+        bottom: 4rem;
+        left: 25%;
+        z-index: 7777;
+        }
+
+    /* header .animated-bg{
+        height: 150vw; 
+       padding: 20px;
+       position: absolute; 
+        width: 150vw;
+       top: -100vw;
+       left:-22%;
+       border-radius: 50%;
+       background-color: var(--main-color);
+       z-index: 5000; 
+       animation: rotation 5s infinite;
+       transition: animation 0.5s;
+       overflow: hidden;
+   } */
+   
+
+    /* customer section */
+   
+.container-customers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 4rem;
+    align-items: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+/* team section */
+.container-team{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 85%;
+    margin-inline: auto; 
+    margin-bottom: 30px;
+   gap: 4rem;
+   align-items: center;
+}
+  
+   /* contact section */
+
+   .container-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    margin-block: 6rem;
+    position: relative;
+    perspective: 100rem;
+    /* width: 100%; */
+    padding: 0 30px;
+}
+
+.container-form .bg{
+    position: relative;
+    height: 800px;
+    background-color: var(--heading-color);
+    border: 1px solid rgb(247, 246, 246);
+    width: 90%;
+
+}
+
+.container-form .image{
+       top: 4rem;
+       left: 2rem;
+}
+
+.container-form form{
+    right: 2rem;
+    bottom: 4rem;
+}
+
+.contact .container-form{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 2rem;
+}
+
+/* .container-form .image img{
+    left: 0rem;
+} */
+
+
+
+footer p{
+   
+    font-size: medium;
+    letter-spacing: 1px;
+ 
+}
+
+}
+
+@media (max-width:768px) {
+      /* header section */
+      .section-heading{
+        font-size: xx-large;
+    }
+
+
+    header nav ul li{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    header .heading{
+        font-size: 60px;
+        text-align: center;
+    }
+
+ /* customer section */
+   
+ .container-customers {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+.container-customers .card{
+
+    width: 18rem;
+    height: 450px;
+    border-radius: 20px;
+    padding: 30px; 
+     background-color: var(--heading-color);
+}
+
+/* team section */
+.container-team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-inline: auto; 
+    margin-bottom: 30px;
+   gap: 1rem;
+   align-items: center;
+}
+    
+
+.container-team .card{
+
+    width: 18rem;
+  
+}
+
+  /* contact section */
+
+  .container-form{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    align-items: center; 
+    margin-block: 6rem;
+    position: relative;
+    perspective: 100rem;
+    /* width: 100%; */
+    padding: 0 30px;
+}
+
+.container-form .bg{
+    position: relative;
+    height: 960px;
+    background-color: var(--heading-color);
+    border: 1px solid rgb(247, 246, 246);
+    width: 90%;
+
+}
+
+
+.container-form .image{
+    width: 80%;
+    position: absolute;
+    top: 4rem;
+    left: 5rem;
+    z-index: 77777777;
+    transform: rotateY(20deg) ;
+    transition: transform 0.5s;
+       box-shadow: 0.3rem 0.3rem 1.2rem rgb(65, 51, 51) ;
+}
+
+.container-form .image img{
+ width: 85%;
+}
+
+.container-form form{
+ display: flex;
+ flex-direction: column;
+ background-color: #fff;
+ height: 350px;
+ padding: 20px;
+ border-radius: 3px;
+ position: absolute;
+ top: 36rem;
+ right: 5rem;
+ z-index: 7777777;
+ transform: rotateY(-20deg) ;
+ box-shadow: 0.3rem 0.3rem 1.2rem rgb(65, 51, 51) ;
+ width: 80%;
+}
+
+footer p{
+   
+    font-size: medium;
+    letter-spacing: 1px;
+ 
+}
+
+}
+
+@media (max-width:922px){
+       /* header section */
+       .section-heading{
+        font-size: xx-large;
+    }
+
+ 
+
+    header nav ul li{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    header .heading{
+        font-size: 80px;
+        text-align: center;
+    }
+
+    .shape{
+        bottom: 4rem;
+        left: 32%;
+        z-index: 7777;
+        }
+     /* customer section */
+   
+.container-customers {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    align-items: center;
+    width: 85%;
+    margin-inline: auto;
+}
+
+
+/* team section */
+.container-team{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-inline: auto; 
+    margin-bottom: 30px;
+   gap: 2rem;
+   align-items: center;
+}
+
+  /* contact section */
+
+  .container-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center; 
+    margin-block: 6rem;
+    position: relative;
+    perspective: 100rem;
+    /* width: 100%; */
+    padding: 0 30px;
+}
+
+.container-form .bg{
+    position: relative;
+    height: 1040px;
+    background-color: var(--heading-color);
+    border: 1px solid rgb(247, 246, 246);
+    width: 90%;
+
+}
+
+.container-form .image{
+       width: 70%;
+       position: absolute;
+       top: 4rem;
+       left: 10rem;
+       z-index: 77777777;
+       transform: rotateY(20deg) ;
+       transition: transform 0.5s;
+          box-shadow: 0.3rem 0.3rem 1.2rem rgb(65, 51, 51) ;
+}
+
+.container-form .image img{
+    width: 85%;
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: 350px;
+    padding: 20px;
+    border-radius: 3px;
+    position: absolute;
+    top: 40rem;
+    right: 10rem;
+    z-index: 7777777;
+    transform: rotateY(-20deg) ;
+    box-shadow: 0.3rem 0.3rem 1.2rem rgb(65, 51, 51) ;
+    width: 70%;
+}
+
+
+}
+
+
+@media (max-width:1250px){
+    header nav ul li{
+        font-size: large;
+        font-weight: bold;
+    }
+
+    header .heading{
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .shape{
+        bottom: 4rem;
+        left: 40%;
+        z-index: 7777;
+        }
+    /* customers section */
+    .container-customers .card{
+        width: 20rem;
+      
+    }
+
+    /* team section */
+    .container-team .card{
+        width: 20rem;
+    }
+
+    /* contact section */
+    .container-form .image{
+        width: 420px;
+        height: 370px;
+        top: 1rem;
+        left: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-form .image img{
+        width: 370px;
+    }
+
+    .container-form form{
+        width: 420px;
+    }
+}
